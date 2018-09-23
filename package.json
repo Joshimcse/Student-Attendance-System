@@ -1,0 +1,30 @@
+{
+  "name": "std-mng",
+  "version": "1.0.0",
+  "description": "student managment system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "student",
+    "managment",
+    "attendence",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jade"
+  ],
+  "author": "Joshim Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.9.1"
+  }
+}
