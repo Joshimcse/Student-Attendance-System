@@ -17,6 +17,7 @@ mongoose.connect('mongodb://localhost/tshirt', (err, res) => {
     if (err) console.log('Database Error: ' + err);
     else console.log('Connected to Database');
 });
+mongoose.Promise = global.Promise;
 
 // Middleware
 app.use(express.static(__dirname + '/public'));
